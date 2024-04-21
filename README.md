@@ -1,7 +1,7 @@
 # Ex.No:1a  			Study of Socket Programming
 
-##Name : VINCY JOVITHA V
-##Register Number: 212223230242
+## Name : VINCY JOVITHA V
+## Register Number: 212223230242
 
 ## Aim: 
 To perform a study on Socket Programming
@@ -56,9 +56,9 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
-##Program:
+## Program:
 
-###Client:
+### Client:
 ```
 import socket
 from datetime import datetime
@@ -75,7 +75,7 @@ if ack:
 c.close()
 ```
 
-###Server:
+### Server:
 ```
 import socket
 s=socket.socket()
@@ -85,12 +85,12 @@ print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
 
-##Output:
+## Output:
 
-###Client
+### Client
 ![client1a](https://github.com/VincyJovitha01/SocketStudy/assets/147121113/c3c0d826-078f-45f5-a2b8-69915f7d41a6)
 
-###Server:
+### Server:
 ![server1a](https://github.com/VincyJovitha01/SocketStudy/assets/147121113/12769f00-640f-4f4c-8592-46517fe43ac6)
 
 ## Result:

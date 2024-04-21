@@ -1,7 +1,7 @@
 # Ex.No:1a  			Study of Socket Programming
 
-#Name : VINCY JOVITHA V
-#Register Number: 212223230242
+##Name : VINCY JOVITHA V
+##Register Number: 212223230242
 
 ## Aim: 
 To perform a study on Socket Programming
@@ -57,6 +57,7 @@ Socket programming finds applications in various domains, including web developm
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
 ##Program:
+
 ###Client:
 ```
 import socket
@@ -85,6 +86,7 @@ s.send("acknowledgement recived from the server".encode())
 ```
 
 ##Output:
+
 ###Client
 ![client1a](https://github.com/VincyJovitha01/SocketStudy/assets/147121113/c3c0d826-078f-45f5-a2b8-69915f7d41a6)
 
